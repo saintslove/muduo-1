@@ -1,0 +1,2 @@
+D:\PROGRA~2\MinGw\bin\ar.exe qc ..\..\..\lib\libquery_proto.a  CMakeFiles/query_proto.dir/query.pb.cc.obj
+D:\PROGRA~2\MinGw\bin\ranlib.exe ..\..\..\lib\libquery_proto.a

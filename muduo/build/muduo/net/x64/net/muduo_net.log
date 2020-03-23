@@ -1,0 +1,12 @@
+﻿VisualGDB : warning : Cannot detect target name for: F:\muduo\muduo\build\muduo\net\Makefile
+  VisualGDB: Sending 1 updated source file to build machine...
+  VisualGDB: Run "make CONFIG=net" in directory "/opt/qiwang30/muduo/muduo_vs2015/net" on root@172.22.124.114:24 (SSH)
+  make: *** No rule to make target `../../../muduo/net/Acceptor.cc', needed by `net/Acceptor.o'.  Stop.
+  -------------------------------------------------------------
+  Command exited with code 2
+  Executable: make
+  Arguments: CONFIG=net
+  Directory: /opt/qiwang30/muduo/muduo_vs2015/net
+VisualGDB : error : Command-line action failed
+EXEC : error : Build has failed. See the Output window for more details.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3073: 命令“"D:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /build "F:\muduo\muduo\build\muduo\net\muduo_net.vcxproj" "/solution:F:\muduo\muduo\build\muduo.sln" "/config:net" "/platform:x64"”已退出，代码为 1。

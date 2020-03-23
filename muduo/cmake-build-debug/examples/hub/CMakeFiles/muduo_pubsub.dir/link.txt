@@ -1,0 +1,2 @@
+D:\PROGRA~2\MinGw\bin\ar.exe qc ..\..\lib\libmuduo_pubsub.a  CMakeFiles/muduo_pubsub.dir/pubsub.cc.obj CMakeFiles/muduo_pubsub.dir/codec.cc.obj
+D:\PROGRA~2\MinGw\bin\ranlib.exe ..\..\lib\libmuduo_pubsub.a

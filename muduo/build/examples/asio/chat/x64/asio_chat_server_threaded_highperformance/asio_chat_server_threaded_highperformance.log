@@ -1,0 +1,15 @@
+﻿VisualGDB : warning : Cannot detect target name for: F:\muduo\muduo\build\examples\asio\chat\Makefile
+VisualGDB : warning : Cannot detect target name for: F:\muduo\muduo\build\examples\asio\chat\Makefile
+  Updating F:\muduo\muduo\build\examples\asio\chat\Makefile
+  VisualGDB: Updated source file list in F:\muduo\muduo\build\examples\asio\chat\Makefile. Enable verbose mode for more details.
+  VisualGDB: Sending 5 updated source files to build machine...
+  VisualGDB: Run "make CONFIG=asio_chat_server_threaded_highperformance" in directory "/opt/qiwang30/muduo/muduo_vs2015/asio_chat_server_threaded_highperformance" on root@172.22.124.114:24 (SSH)
+  make: *** No rule to make target `../../../../examples/asio/chat/server_threaded_highperformance.cc', needed by `asio_chat_server_threaded_highperformance/server_threaded_highperformance.o'.  Stop.
+  -------------------------------------------------------------
+  Command exited with code 2
+  Executable: make
+  Arguments: CONFIG=asio_chat_server_threaded_highperformance
+  Directory: /opt/qiwang30/muduo/muduo_vs2015/asio_chat_server_threaded_highperformance
+VisualGDB : error : Command-line action failed
+EXEC : error : Build has failed. See the Output window for more details.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3073: 命令“"D:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /build "F:\muduo\muduo\build\examples\asio\chat\asio_chat_server_threaded_highperformance.vcxproj" "/solution:F:\muduo\muduo\build\muduo.sln" "/config:asio_chat_server_threaded_highperformance" "/platform:x64"”已退出，代码为 1。

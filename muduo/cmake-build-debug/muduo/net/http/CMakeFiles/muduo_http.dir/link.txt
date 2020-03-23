@@ -1,0 +1,2 @@
+D:\PROGRA~2\MinGw\bin\ar.exe qc ..\..\..\lib\libmuduo_http.a  CMakeFiles/muduo_http.dir/HttpServer.cc.obj CMakeFiles/muduo_http.dir/HttpResponse.cc.obj CMakeFiles/muduo_http.dir/HttpContext.cc.obj
+D:\PROGRA~2\MinGw\bin\ranlib.exe ..\..\..\lib\libmuduo_http.a

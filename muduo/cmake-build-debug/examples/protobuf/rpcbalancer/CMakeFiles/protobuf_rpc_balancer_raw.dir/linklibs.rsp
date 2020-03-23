@@ -1,0 +1,1 @@
+../../../lib/libmuduo_protorpc.a ../../../lib/libmuduo_protorpc_wire.a ../../../lib/libmuduo_protobuf_codec.a ../../../lib/libmuduo_net.a ../../../lib/libmuduo_base.a -lpthread -lrt -lprotobuf -lz -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

@@ -1,0 +1,5 @@
+﻿  VisualGDB: Sending 4 updated source files to build machine...
+  VisualGDB: Run "make CONFIG=Debug" in directory "/opt/qiwang30/muduo/echo_server_epoll" on root@172.22.124.114:24 (SSH)
+  g++ -std=c++11 -ggdb -ffunction-sections -O0  -I../hello_muduo/include -DDEBUG=1  -c echo_server_epoll.cpp -o Debug/echo_server_epoll.o -MD -MF Debug/echo_server_epoll.dep
+  g++ -std=c++11 -ggdb -ffunction-sections -O0  -I../hello_muduo/include -DDEBUG=1  -c server_epoll.cpp -o Debug/server_epoll.o -MD -MF Debug/server_epoll.dep
+  g++ -o Debug/echo_server_epoll -Wl,-gc-sections   -L../hello_muduo/lib/boost -L../hello_muduo/lib/muduo -Wl,--start-group Debug/echo_server_epoll.o Debug/server_epoll.o -lmuduo_base -lmuduo_net  -Wl,--rpath='$ORIGIN'   -Wl,--end-group

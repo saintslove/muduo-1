@@ -1,0 +1,5 @@
+﻿  VisualGDB: Sending 2 updated source files to build machine...
+  VisualGDB: Run "make CONFIG=Debug" in directory "/opt/qiwang30/muduo/echo_client_select" on root@172.22.124.114:24 (SSH)
+  g++ -std=c++11 -ggdb -ffunction-sections -O0   -DDEBUG=1  -c echo_client.cpp -o Debug/echo_client.o -MD -MF Debug/echo_client.dep
+  g++ -std=c++11 -ggdb -ffunction-sections -O0   -DDEBUG=1  -c echo_client_select.cpp -o Debug/echo_client_select.o -MD -MF Debug/echo_client_select.dep
+  g++ -o Debug/echo_client_select -Wl,-gc-sections    -Wl,--start-group Debug/echo_client.o Debug/echo_client_select.o   -Wl,--rpath='$ORIGIN'   -Wl,--end-group

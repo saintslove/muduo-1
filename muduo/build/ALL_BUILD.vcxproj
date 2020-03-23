@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5E7FE2DC-9E02-3CB4-A9B9-7BCBE37EEC84}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Program Files\MinGw\include;F:\muduo\muduo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Program Files\MinGw\include;F:\muduo\muduo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Program Files\MinGw\include;F:\muduo\muduo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Program Files\MinGw\include;F:\muduo\muduo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\muduo\muduo\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/muduo/muduo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HF:/muduo/muduo -BF:/muduo/muduo/build --check-stamp-file F:/muduo/muduo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/muduo/muduo/CMakeLists.txt;F:\muduo\muduo\CMakeLists.txt;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;F:\muduo\muduo\build\CMakeFiles\feature_tests.cxx;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindBoost.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindProtobuf.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindCURL.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;F:\muduo\muduo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\muduo\muduo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/muduo/muduo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HF:/muduo/muduo -BF:/muduo/muduo/build --check-stamp-file F:/muduo/muduo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/muduo/muduo/CMakeLists.txt;F:\muduo\muduo\CMakeLists.txt;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;F:\muduo\muduo\build\CMakeFiles\feature_tests.cxx;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindBoost.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindProtobuf.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindCURL.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;F:\muduo\muduo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\muduo\muduo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/muduo/muduo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HF:/muduo/muduo -BF:/muduo/muduo/build --check-stamp-file F:/muduo/muduo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/muduo/muduo/CMakeLists.txt;F:\muduo\muduo\CMakeLists.txt;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;F:\muduo\muduo\build\CMakeFiles\feature_tests.cxx;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindBoost.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindProtobuf.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindCURL.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;F:\muduo\muduo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\muduo\muduo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/muduo/muduo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HF:/muduo/muduo -BF:/muduo/muduo/build --check-stamp-file F:/muduo/muduo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/muduo/muduo/CMakeLists.txt;F:\muduo\muduo\CMakeLists.txt;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;F:\muduo\muduo\build\CMakeFiles\feature_tests.cxx;D:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompiler.cmake.in;F:\muduo\muduo\build\CMakeFiles\3.10.0-rc1\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindBoost.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindProtobuf.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindCURL.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;F:\muduo\muduo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\muduo\muduo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\muduo\muduo\build\ZERO_CHECK.vcxproj">
+      <Project>{B822DF87-6A36-37DD-964B-B0C3184521AE}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\asio\chat\asio_chat_client.vcxproj">
+      <Project>{451F958B-EC74-318B-B1AF-D0213AF72022}</Project>
+      <Name>asio_chat_client</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\asio\chat\asio_chat_loadtest.vcxproj">
+      <Project>{A3EBA501-86F4-3FBA-9BB5-FA33BDBCF37E}</Project>
+      <Name>asio_chat_loadtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\asio\chat\asio_chat_server.vcxproj">
+      <Project>{1DCD2B96-7E49-3442-AEA3-0AA141532B18}</Project>
+      <Name>asio_chat_server</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\asio\chat\asio_chat_server_threaded.vcxproj">
+      <Project>{B630391A-F148-3C72-97E8-94B6D8D0539F}</Project>
+      <Name>asio_chat_server_threaded</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\asio\chat\asio_chat_server_threaded_efficient.vcxproj">
+      <Project>{5219C319-5DBD-32B2-95FD-FFE8D18BF460}</Project>
+      <Name>asio_chat_server_threaded_efficient</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\asio\chat\asio_chat_server_threaded_highperformance.vcxproj">
+      <Project>{EE06488A-14B0-38D8-B4C8-8A03F80B0111}</Project>
+      <Name>asio_chat_server_threaded_highperformance</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\asio\tutorial\asio_tutorial_timer2.vcxproj">
+      <Project>{F6441732-124A-3F74-8CC2-D5829BEA33F6}</Project>
+      <Name>asio_tutorial_timer2</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\asio\tutorial\asio_tutorial_timer3.vcxproj">
+      <Project>{DF8E31D5-CEA6-36CC-BE34-038530551F3F}</Project>
+      <Name>asio_tutorial_timer3</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\asio\tutorial\asio_tutorial_timer4.vcxproj">
+      <Project>{45090874-D3F3-3B5E-91D0-09C0446A8B6F}</Project>
+      <Name>asio_tutorial_timer4</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\asio\tutorial\asio_tutorial_timer5.vcxproj">
+      <Project>{8AE2C387-9191-367B-B816-3C1B21AEF2F1}</Project>
+      <Name>asio_tutorial_timer5</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\asio\tutorial\asio_tutorial_timer6.vcxproj">
+      <Project>{DF5D52E1-A8E2-32F7-86E4-43A8820F0D22}</Project>
+      <Name>asio_tutorial_timer6</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\asynclogging_test.vcxproj">
+      <Project>{0F9E8A89-9BAE-3C8C-8DA2-907A0061259A}</Project>
+      <Name>asynclogging_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\atomic_unittest.vcxproj">
+      <Project>{A9657C28-17DA-3912-98B3-593C92E324D3}</Project>
+      <Name>atomic_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\socks4a\balancer.vcxproj">
+      <Project>{7CE711C9-29D5-3EB1-BA5E-136E0D801E01}</Project>
+      <Name>balancer</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\blockingqueue_bench.vcxproj">
+      <Project>{EC6C885D-648D-34A6-98FC-8646E7F0A73A}</Project>
+      <Name>blockingqueue_bench</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\blockingqueue_test.vcxproj">
+      <Project>{D17F18D3-6340-325F-B7EA-547B480F633C}</Project>
+      <Name>blockingqueue_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\boundedblockingqueue_test.vcxproj">
+      <Project>{B6528B81-3A1E-3749-8826-3D1BCF4B5DA4}</Project>
+      <Name>boundedblockingqueue_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\net\tests\channel_test.vcxproj">
+      <Project>{2436512C-6D7E-3E34-9384-0BFA69E2A29E}</Project>
+      <Name>channel_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\date_unittest.vcxproj">
+      <Project>{BCF038E3-B580-3F7A-8FA7-4CE0CBDF8A7C}</Project>
+      <Name>date_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\net\tests\echoclient_unittest.vcxproj">
+      <Project>{19CF9A91-3809-38EA-A657-1AA2FC5BAF7D}</Project>
+      <Name>echoclient_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\net\tests\echoserver_unittest.vcxproj">
+      <Project>{AB650A02-BA78-3EEB-A226-77F086A445A5}</Project>
+      <Name>echoserver_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\net\tests\eventloop_unittest.vcxproj">
+      <Project>{B06E6A24-63BB-3C12-A0B6-F5907CA7811A}</Project>
+      <Name>eventloop_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\net\tests\eventloopthread_unittest.vcxproj">
+      <Project>{AA3F3489-DEBA-38EF-92A6-FA2C2E3F519C}</Project>
+      <Name>eventloopthread_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\net\tests\eventloopthreadpool_unittest.vcxproj">
+      <Project>{45889DBA-2E19-3D04-8612-53F6AB04CBFF}</Project>
+      <Name>eventloopthreadpool_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\exception_test.vcxproj">
+      <Project>{807EC15D-3ADF-3DF6-9020-F421C574C56A}</Project>
+      <Name>exception_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\fastcgi\fastcgi_test.vcxproj">
+      <Project>{D37E00BE-642F-30A1-9203-ADD5F4E57AC3}</Project>
+      <Name>fastcgi_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\filetransfer\filetransfer_download.vcxproj">
+      <Project>{7BAC5820-D4DC-32CD-BE4A-1726B024CB17}</Project>
+      <Name>filetransfer_download</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\filetransfer\filetransfer_download2.vcxproj">
+      <Project>{8A85D9DC-A261-3387-8B3A-668E7EF9ABC1}</Project>
+      <Name>filetransfer_download2</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\filetransfer\filetransfer_download3.vcxproj">
+      <Project>{723F0550-E29B-36AB-97B9-187E8E6D314A}</Project>
+      <Name>filetransfer_download3</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\fileutil_test.vcxproj">
+      <Project>{DFDD89F2-FEB9-3B10-B33C-17D7C50B3DFB}</Project>
+      <Name>fileutil_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\fork_test.vcxproj">
+      <Project>{BA200807-7336-357F-AD88-B6D04C5BF4DD}</Project>
+      <Name>fork_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\net\http\httpserver_test.vcxproj">
+      <Project>{7B8D3C2F-481E-34C3-86E4-8A475C2D03F3}</Project>
+      <Name>httpserver_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\hub\hub.vcxproj">
+      <Project>{41AFD330-C7A1-3CAD-BE13-21DC3A95BC50}</Project>
+      <Name>hub</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\idleconnection\idleconnection_echo.vcxproj">
+      <Project>{43AAC05B-2F71-3A32-A813-1CDE6FFE8D8C}</Project>
+      <Name>idleconnection_echo</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\idleconnection\idleconnection_echo2.vcxproj">
+      <Project>{4D5B66E2-E890-3602-B9FA-E8024949B7B6}</Project>
+      <Name>idleconnection_echo2</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\net\inspect\inspector_test.vcxproj">
+      <Project>{9121DC57-C36C-3ED6-9CF6-E9EDD87FA407}</Project>
+      <Name>inspector_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\logfile_test.vcxproj">
+      <Project>{8EDCF482-EF1A-37F7-A852-29559F56136A}</Project>
+      <Name>logfile_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\logging_test.vcxproj">
+      <Project>{BAEFA890-A7BB-3A4B-825B-9D12E000B2CC}</Project>
+      <Name>logging_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\logstream_bench.vcxproj">
+      <Project>{26DD12A8-7327-3A9E-BD12-38169A5BF5EB}</Project>
+      <Name>logstream_bench</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\maxconnection\maxconnection_echo.vcxproj">
+      <Project>{770BFFD3-BD6E-3631-8EB3-ED9241EF79E6}</Project>
+      <Name>maxconnection_echo</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\memcached\server\memcached_footprint.vcxproj">
+      <Project>{67D3DEA9-2201-36B2-B232-93DD75A3D2FD}</Project>
+      <Name>memcached_footprint</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\muduo_base.vcxproj">
+      <Project>{BD756AD5-A630-30E0-B984-1A6F3D5168CF}</Project>
+      <Name>muduo_base</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\net\http\muduo_http.vcxproj">
+      <Project>{4083F384-A155-31D0-9BBF-956BA5174E9C}</Project>
+      <Name>muduo_http</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\net\inspect\muduo_inspect.vcxproj">
+      <Project>{0393C283-9A55-3DBA-9457-451FC22328A1}</Project>
+      <Name>muduo_inspect</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\net\muduo_net.vcxproj">
+      <Project>{65CA4D83-90AF-3F68-A0D6-951BDE7A198F}</Project>
+      <Name>muduo_net</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\hub\muduo_pubsub.vcxproj">
+      <Project>{E3EB7F74-E5F5-33BD-A1F0-CEEFA9C47C2C}</Project>
+      <Name>muduo_pubsub</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\multiplexer\multiplex_demux.vcxproj">
+      <Project>{DDB1A872-08AB-3545-812E-610A5288B870}</Project>
+      <Name>multiplex_demux</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\multiplexer\multiplex_server.vcxproj">
+      <Project>{E0A38A6A-D27C-3533-BDBE-98EB6C4B0721}</Project>
+      <Name>multiplex_server</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\multiplexer\multiplex_server_simple.vcxproj">
+      <Project>{8A85A21D-6DCF-3E93-BEE8-486A7ABD33BD}</Project>
+      <Name>multiplex_server_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\mutex_test.vcxproj">
+      <Project>{3626A28A-318F-30D6-85B3-B5A0D74A74AE}</Project>
+      <Name>mutex_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\netty\discard\netty_discard_client.vcxproj">
+      <Project>{67A1359C-F9DE-31B3-B248-02AE5B4DBEA3}</Project>
+      <Name>netty_discard_client</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\netty\discard\netty_discard_server.vcxproj">
+      <Project>{6B9D010E-09CA-3740-B9F3-CD97D5C0E5D1}</Project>
+      <Name>netty_discard_server</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\netty\echo\netty_echo_client.vcxproj">
+      <Project>{377FA769-F749-317C-88EE-B22E062E9DD0}</Project>
+      <Name>netty_echo_client</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\netty\echo\netty_echo_server.vcxproj">
+      <Project>{73EAA066-66AD-34A5-B826-98C58DDAA110}</Project>
+      <Name>netty_echo_server</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\netty\echo\netty_echo_server2.vcxproj">
+      <Project>{8D75E878-E169-373A-BF79-A1ABE17C6A1B}</Project>
+      <Name>netty_echo_server2</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\netty\uptime\netty_uptime.vcxproj">
+      <Project>{173F6D71-28F9-3427-9573-9C24E7BF5688}</Project>
+      <Name>netty_uptime</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\pingpong\pingpong_bench.vcxproj">
+      <Project>{F89FBF4E-B268-3856-9904-A4AA3B0D8E77}</Project>
+      <Name>pingpong_bench</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\pingpong\pingpong_client.vcxproj">
+      <Project>{3EE0C957-D54B-315D-9B1F-F55D40C58EA9}</Project>
+      <Name>pingpong_client</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\pingpong\pingpong_server.vcxproj">
+      <Project>{1BD3518E-9ADA-3E74-A139-8E06E4912467}</Project>
+      <Name>pingpong_server</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\processinfo_test.vcxproj">
+      <Project>{EE6309B0-C684-3512-9CCC-C6933B971848}</Project>
+      <Name>processinfo_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\hub\pub.vcxproj">
+      <Project>{D9FBCAAF-509C-347F-A503-B06A3C47F779}</Project>
+      <Name>pub</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\roundtrip\roundtrip.vcxproj">
+      <Project>{9E74DAE9-6A9A-357A-9468-1492A0B11459}</Project>
+      <Name>roundtrip</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\roundtrip\roundtrip_udp.vcxproj">
+      <Project>{17580C33-F360-3B09-93D7-1FD5C9F6EE1D}</Project>
+      <Name>roundtrip_udp</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\shorturl\shorturl.vcxproj">
+      <Project>{C2AD1E48-271E-376E-B40F-10A79C3F73D4}</Project>
+      <Name>shorturl</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\simple\simple_allinone.vcxproj">
+      <Project>{9418494E-7AEB-362D-AC5C-6BDA49852BB7}</Project>
+      <Name>simple_allinone</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\simple\simple_chargen.vcxproj">
+      <Project>{26C80773-E3A7-393B-87CB-F805031EBC6A}</Project>
+      <Name>simple_chargen</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\simple\simple_chargenclient.vcxproj">
+      <Project>{2915056B-55C7-34A9-B3B2-87B28479FBAB}</Project>
+      <Name>simple_chargenclient</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\simple\simple_daytime.vcxproj">
+      <Project>{45045926-BD3C-3ED9-9CDB-242ED7DF620E}</Project>
+      <Name>simple_daytime</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\simple\simple_discard.vcxproj">
+      <Project>{96F7415E-A85A-31D9-A70E-C721B3C49A01}</Project>
+      <Name>simple_discard</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\simple\simple_echo.vcxproj">
+      <Project>{A2B706B6-C3D6-392D-BEEF-482645BCFB76}</Project>
+      <Name>simple_echo</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\simple\simple_time.vcxproj">
+      <Project>{A9F9A1AE-4E83-30BE-9637-8D355173310D}</Project>
+      <Name>simple_time</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\simple\simple_timeclient.vcxproj">
+      <Project>{53AD9C8D-9DB1-3ECB-B6B3-B0A950565C0D}</Project>
+      <Name>simple_timeclient</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\singleton_test.vcxproj">
+      <Project>{2CD7AB2F-A02B-3910-B76B-716A32249492}</Project>
+      <Name>singleton_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\singleton_threadlocal_test.vcxproj">
+      <Project>{32D3E1EF-7802-3722-A69C-ECEEA5052F81}</Project>
+      <Name>singleton_threadlocal_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\socks4a\socks4a.vcxproj">
+      <Project>{CD47679F-0CF3-3F83-91A3-CB9222DE5358}</Project>
+      <Name>socks4a</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\hub\sub.vcxproj">
+      <Project>{9E6E5375-A78F-3936-991E-4C7C1FB6B066}</Project>
+      <Name>sub</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\sudoku\sudoku_client_batch.vcxproj">
+      <Project>{EBC53EF9-0DC7-33CD-AA6A-A82D5C80DB2A}</Project>
+      <Name>sudoku_client_batch</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\sudoku\sudoku_client_pipeline.vcxproj">
+      <Project>{697EA099-197D-3E09-A93F-DB447411B8D9}</Project>
+      <Name>sudoku_client_pipeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\sudoku\sudoku_loadtest.vcxproj">
+      <Project>{6BAF0A43-0C7E-3258-9073-954088E8FED8}</Project>
+      <Name>sudoku_loadtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\sudoku\sudoku_solver_basic.vcxproj">
+      <Project>{82749675-5344-3617-ACCD-06239A3847AB}</Project>
+      <Name>sudoku_solver_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\sudoku\sudoku_solver_hybrid.vcxproj">
+      <Project>{C2787B8A-FC40-33CC-9DC5-0F81904ECEF5}</Project>
+      <Name>sudoku_solver_hybrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\sudoku\sudoku_solver_multiloop.vcxproj">
+      <Project>{E7C22F23-AA22-354B-84B6-6DC5DF555CD6}</Project>
+      <Name>sudoku_solver_multiloop</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\sudoku\sudoku_solver_prod.vcxproj">
+      <Project>{948000C3-8646-335F-AB7E-8905B7B37681}</Project>
+      <Name>sudoku_solver_prod</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\sudoku\sudoku_solver_threadpool.vcxproj">
+      <Project>{A56A737C-0BA2-30A9-876C-11A33B63BEBD}</Project>
+      <Name>sudoku_solver_threadpool</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\net\tests\tcpclient_reg1.vcxproj">
+      <Project>{01D49CBD-8B35-34D6-AB0B-6F2BE771A7BA}</Project>
+      <Name>tcpclient_reg1</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\net\tests\tcpclient_reg2.vcxproj">
+      <Project>{E2F105A9-976F-3FCC-A086-EE72A5AEC02B}</Project>
+      <Name>tcpclient_reg2</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\net\tests\tcpclient_reg3.vcxproj">
+      <Project>{7E383C5C-B76C-3D0C-896E-079BAE818F0B}</Project>
+      <Name>tcpclient_reg3</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\socks4a\tcprelay.vcxproj">
+      <Project>{609710B7-830F-3989-9292-CE909DF0AE1D}</Project>
+      <Name>tcprelay</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\thread_bench.vcxproj">
+      <Project>{D31AA1D9-4559-3396-98C9-2EAAA2C78AD4}</Project>
+      <Name>thread_bench</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\thread_test.vcxproj">
+      <Project>{A463554A-62C1-364D-852D-E1933A104125}</Project>
+      <Name>thread_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\threadlocal_test.vcxproj">
+      <Project>{12A17D6C-554F-37DD-ACEA-50BC1C0DEE26}</Project>
+      <Name>threadlocal_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\threadlocalsingleton_test.vcxproj">
+      <Project>{50AC6769-03BB-3D09-AA66-6CF9EB41B0BF}</Project>
+      <Name>threadlocalsingleton_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\threadpool_test.vcxproj">
+      <Project>{C653143D-E632-387D-AC62-C1BCC3DEEE3A}</Project>
+      <Name>threadpool_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\net\tests\timerqueue_unittest.vcxproj">
+      <Project>{DA2DE4AF-B743-3CBD-A228-F1FCB7BBB9F0}</Project>
+      <Name>timerqueue_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\timestamp_unittest.vcxproj">
+      <Project>{114A5BCE-7C60-3E16-AF19-5DD199DDC979}</Project>
+      <Name>timestamp_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\base\tests\timezone_unittest.vcxproj">
+      <Project>{DEF0CFF0-35B2-31FD-8EF4-C872CC6D7044}</Project>
+      <Name>timezone_unittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\twisted\finger\twisted_finger01.vcxproj">
+      <Project>{15926C36-107B-327F-970C-E9A33838D1C3}</Project>
+      <Name>twisted_finger01</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\twisted\finger\twisted_finger02.vcxproj">
+      <Project>{711576F8-7B9B-385C-BDEB-7D8D3A29CCC8}</Project>
+      <Name>twisted_finger02</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\twisted\finger\twisted_finger03.vcxproj">
+      <Project>{140B6B8E-B218-3438-BBD9-616603CD52CD}</Project>
+      <Name>twisted_finger03</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\twisted\finger\twisted_finger04.vcxproj">
+      <Project>{78B620D5-1986-30D0-9F95-EB355887A09B}</Project>
+      <Name>twisted_finger04</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\twisted\finger\twisted_finger05.vcxproj">
+      <Project>{7D90EE3D-5FCE-3CFC-8567-27FCDA00FB40}</Project>
+      <Name>twisted_finger05</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\twisted\finger\twisted_finger06.vcxproj">
+      <Project>{59269CC7-EB53-3312-BA36-254EC8502D4E}</Project>
+      <Name>twisted_finger06</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\twisted\finger\twisted_finger07.vcxproj">
+      <Project>{DA8907B4-A64F-34B3-A8EA-A443761E29EA}</Project>
+      <Name>twisted_finger07</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\wordcount\wordcount_hasher.vcxproj">
+      <Project>{BBF8CC22-7D6A-3277-8047-43410632A06C}</Project>
+      <Name>wordcount_hasher</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\wordcount\wordcount_receiver.vcxproj">
+      <Project>{734BF617-ED33-3BED-A6DB-3EB6115D7201}</Project>
+      <Name>wordcount_receiver</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\zeromq\zeromq_local_lat.vcxproj">
+      <Project>{F838A3B9-5625-389C-8292-D55C7FC015E8}</Project>
+      <Name>zeromq_local_lat</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\zeromq\zeromq_remote_lat.vcxproj">
+      <Project>{1A28059C-7065-31FB-8969-8C8D4B00A9A1}</Project>
+      <Name>zeromq_remote_lat</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

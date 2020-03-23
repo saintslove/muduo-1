@@ -1,0 +1,2 @@
+D:\PROGRA~2\MinGw\bin\ar.exe qc ..\..\..\lib\libmuduo_protorpc.a  CMakeFiles/muduo_protorpc.dir/RpcChannel.cc.obj CMakeFiles/muduo_protorpc.dir/RpcServer.cc.obj
+D:\PROGRA~2\MinGw\bin\ranlib.exe ..\..\..\lib\libmuduo_protorpc.a

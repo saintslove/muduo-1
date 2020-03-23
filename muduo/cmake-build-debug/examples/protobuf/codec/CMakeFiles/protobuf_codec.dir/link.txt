@@ -1,0 +1,2 @@
+D:\PROGRA~2\MinGw\bin\ar.exe qc ..\..\..\lib\libprotobuf_codec.a  CMakeFiles/protobuf_codec.dir/codec.cc.obj
+D:\PROGRA~2\MinGw\bin\ranlib.exe ..\..\..\lib\libprotobuf_codec.a

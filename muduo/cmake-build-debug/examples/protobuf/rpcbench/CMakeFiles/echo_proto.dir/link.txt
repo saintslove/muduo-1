@@ -1,0 +1,2 @@
+D:\PROGRA~2\MinGw\bin\ar.exe qc ..\..\..\lib\libecho_proto.a  CMakeFiles/echo_proto.dir/echo.pb.cc.obj
+D:\PROGRA~2\MinGw\bin\ranlib.exe ..\..\..\lib\libecho_proto.a

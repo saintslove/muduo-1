@@ -1,0 +1,977 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /demo
+CMake Error: The source directory "/demo" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+
+Cannot get compiler information:
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugcontribhiredis: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugcontribthrift: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesacelogging: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesacelogging: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -Wno-conversion -Wno-shadow -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesacelogging: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesacelogging: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesacettcp: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesacettcp: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesacettcp: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesacettcp: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesasiochat: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesasiochat: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesasiochat: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesasiochat: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesasiochat: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesasiochat: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesasiotutorial: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesasiotutorial: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesasiotutorial: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesasiotutorial: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesasiotutorial: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplescdns: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplescdns: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplescurl: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplescurl: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplescurl: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesfastcgi: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesfiletransfer: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesfiletransfer: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesfiletransfer: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexampleshub: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexampleshub: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexampleshub: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexampleshub: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesidleconnection: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesidleconnection: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesmaxconnection: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesmemcachedclient: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesmemcachedserver: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesmemcachedserver: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesmultiplexer: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesmultiplexer: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesmultiplexer: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesnettydiscard: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesnettydiscard: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesnettyecho: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesnettyecho: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesnettyecho: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesnettyuptime: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplespingpong: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplespingpong: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplespingpong: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprocmon: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprocmon: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprocmon: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufcodec: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufcodec: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufcodec: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufcodec: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufcodec: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufcodec: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufcodec: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -Wno-conversion -Wno-shadow -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufcodec: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufresolver: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufresolver: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufresolver: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -Wno-conversion -Wno-shadow -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufresolver: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufrpc: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufrpc: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufrpc: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -Wno-conversion -Wno-shadow -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufrpc: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufrpcbalancer: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufrpcbalancer: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufrpcbench: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -Wno-conversion -Wno-shadow -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufrpcbench: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufrpcbench: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesprotobufrpcbench: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesroundtrip: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesroundtrip: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplesshorturl: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplessimple: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplessimple: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplessimple: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplessimple: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplessimple: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplessimple: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplessimple: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplessimple: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplessocks4a: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplessocks4a: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplessocks4a: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplessudoku: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplessudoku: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplessudoku: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplessudoku: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplessudoku: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplessudoku: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplessudoku: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplessudoku: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplessudoku: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplestwistedfinger: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplestwistedfinger: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplestwistedfinger: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplestwistedfinger: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplestwistedfinger: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplestwistedfinger: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexamplestwistedfinger: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexampleswordcount: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexampleswordcount: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexampleszeromq: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugexampleszeromq: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobase: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduobasetests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonet: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -DNO_ACCEPT4 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonet: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonethttp: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonethttp: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonethttp: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonetinspect: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonetinspect: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonetprotobuf: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonetprotorpc: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonetprotorpc: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -Wno-conversion -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonetprotorpc: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -IE:/MIME/third_part/muduo/cmake-build-debug -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonetprotorpc: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonettests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonettests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonettests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonettests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonettests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonettests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonettests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonettests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonettests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonettests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonettests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonettests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	
+	Compiler exited with error code 126: D:\Program Files\MinGw\bin\g++.exe -xc++ -ID:/PROGRA~2/MinGw/include -IE:/MIME/third_part/muduo -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O0 -fpch-preprocess -v -dD -E
+	bash: line 0: cd: democmake-build-debugmuduonettests: No such file or directory
+	bash: /root/D:/Program Files/MinGw/bin/g++.exe: No such file or directory
+	bash: line 0: exec: /root/D:/Program Files/MinGw/bin/g++.exe: cannot execute: No such file or directory
+	
+	

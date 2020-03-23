@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E830C51C-7C9F-3311-8A38-DDD5676D779E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>protobuf_rpc_all</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Program Files\MinGw\include;F:\muduo\muduo;F:\muduo\muduo\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Program Files\MinGw\include;F:\muduo\muduo;F:\muduo\muduo\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Program Files\MinGw\include;F:\muduo\muduo;F:\muduo\muduo\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Program Files\MinGw\include;F:\muduo\muduo;F:\muduo\muduo\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\muduo\muduo\examples\protobuf\rpc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/muduo/muduo/examples/protobuf/rpc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HF:/muduo/muduo -BF:/muduo/muduo/build --check-stamp-file F:/muduo/muduo/build/examples/protobuf/rpc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/muduo/muduo/examples/protobuf/rpc/CMakeLists.txt;F:\muduo\muduo\examples\protobuf\rpc\CMakeLists.txt;F:\muduo\muduo\examples\protobuf\rpc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\muduo\muduo\build\examples\protobuf\rpc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/muduo/muduo/examples/protobuf/rpc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HF:/muduo/muduo -BF:/muduo/muduo/build --check-stamp-file F:/muduo/muduo/build/examples/protobuf/rpc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/muduo/muduo/examples/protobuf/rpc/CMakeLists.txt;F:\muduo\muduo\examples\protobuf\rpc\CMakeLists.txt;F:\muduo\muduo\examples\protobuf\rpc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\muduo\muduo\build\examples\protobuf\rpc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/muduo/muduo/examples/protobuf/rpc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HF:/muduo/muduo -BF:/muduo/muduo/build --check-stamp-file F:/muduo/muduo/build/examples/protobuf/rpc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/muduo/muduo/examples/protobuf/rpc/CMakeLists.txt;F:\muduo\muduo\examples\protobuf\rpc\CMakeLists.txt;F:\muduo\muduo\examples\protobuf\rpc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\muduo\muduo\build\examples\protobuf\rpc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/muduo/muduo/examples/protobuf/rpc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HF:/muduo/muduo -BF:/muduo/muduo/build --check-stamp-file F:/muduo/muduo/build/examples/protobuf/rpc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/muduo/muduo/examples/protobuf/rpc/CMakeLists.txt;F:\muduo\muduo\examples\protobuf\rpc\CMakeLists.txt;F:\muduo\muduo\examples\protobuf\rpc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\muduo\muduo\build\examples\protobuf\rpc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\muduo\muduo\build\CMakeFiles\68d2dff08f3227ebcfa3328cd618881d\protobuf_rpc_all.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/muduo/muduo/build/CMakeFiles/68d2dff08f3227ebcfa3328cd618881d/protobuf_rpc_all.rule;F:\muduo\muduo\build\lib\Debug\muduo_protorpc.lib;F:\muduo\muduo\build\bin\Debug\protobuf_rpc_balancer.exe;F:\muduo\muduo\build\bin\Debug\protobuf_rpc_balancer_raw.exe;F:\muduo\muduo\build\bin\Debug\protobuf_rpc_echo_client.exe;F:\muduo\muduo\build\bin\Debug\protobuf_rpc_echo_server.exe;F:\muduo\muduo\build\bin\Debug\protobuf_rpc_resolver_client.exe;F:\muduo\muduo\build\bin\Debug\protobuf_rpc_resolver_server.exe;F:\muduo\muduo\build\bin\Debug\protobuf_rpc_sudoku_client.exe;F:\muduo\muduo\build\bin\Debug\protobuf_rpc_sudoku_server.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\muduo\muduo\build\examples\protobuf\rpc\CMakeFiles\protobuf_rpc_all</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/muduo/muduo/build/CMakeFiles/68d2dff08f3227ebcfa3328cd618881d/protobuf_rpc_all.rule;F:\muduo\muduo\build\lib\Release\muduo_protorpc.lib;F:\muduo\muduo\build\bin\Release\protobuf_rpc_balancer.exe;F:\muduo\muduo\build\bin\Release\protobuf_rpc_balancer_raw.exe;F:\muduo\muduo\build\bin\Release\protobuf_rpc_echo_client.exe;F:\muduo\muduo\build\bin\Release\protobuf_rpc_echo_server.exe;F:\muduo\muduo\build\bin\Release\protobuf_rpc_resolver_client.exe;F:\muduo\muduo\build\bin\Release\protobuf_rpc_resolver_server.exe;F:\muduo\muduo\build\bin\Release\protobuf_rpc_sudoku_client.exe;F:\muduo\muduo\build\bin\Release\protobuf_rpc_sudoku_server.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\muduo\muduo\build\examples\protobuf\rpc\CMakeFiles\protobuf_rpc_all</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/muduo/muduo/build/CMakeFiles/68d2dff08f3227ebcfa3328cd618881d/protobuf_rpc_all.rule;F:\muduo\muduo\build\lib\MinSizeRel\muduo_protorpc.lib;F:\muduo\muduo\build\bin\MinSizeRel\protobuf_rpc_balancer.exe;F:\muduo\muduo\build\bin\MinSizeRel\protobuf_rpc_balancer_raw.exe;F:\muduo\muduo\build\bin\MinSizeRel\protobuf_rpc_echo_client.exe;F:\muduo\muduo\build\bin\MinSizeRel\protobuf_rpc_echo_server.exe;F:\muduo\muduo\build\bin\MinSizeRel\protobuf_rpc_resolver_client.exe;F:\muduo\muduo\build\bin\MinSizeRel\protobuf_rpc_resolver_server.exe;F:\muduo\muduo\build\bin\MinSizeRel\protobuf_rpc_sudoku_client.exe;F:\muduo\muduo\build\bin\MinSizeRel\protobuf_rpc_sudoku_server.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\muduo\muduo\build\examples\protobuf\rpc\CMakeFiles\protobuf_rpc_all</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/muduo/muduo/build/CMakeFiles/68d2dff08f3227ebcfa3328cd618881d/protobuf_rpc_all.rule;F:\muduo\muduo\build\lib\RelWithDebInfo\muduo_protorpc.lib;F:\muduo\muduo\build\bin\RelWithDebInfo\protobuf_rpc_balancer.exe;F:\muduo\muduo\build\bin\RelWithDebInfo\protobuf_rpc_balancer_raw.exe;F:\muduo\muduo\build\bin\RelWithDebInfo\protobuf_rpc_echo_client.exe;F:\muduo\muduo\build\bin\RelWithDebInfo\protobuf_rpc_echo_server.exe;F:\muduo\muduo\build\bin\RelWithDebInfo\protobuf_rpc_resolver_client.exe;F:\muduo\muduo\build\bin\RelWithDebInfo\protobuf_rpc_resolver_server.exe;F:\muduo\muduo\build\bin\RelWithDebInfo\protobuf_rpc_sudoku_client.exe;F:\muduo\muduo\build\bin\RelWithDebInfo\protobuf_rpc_sudoku_server.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\muduo\muduo\build\examples\protobuf\rpc\CMakeFiles\protobuf_rpc_all</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\muduo\muduo\build\examples\protobuf\rpc\CMakeFiles\protobuf_rpc_all" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\muduo\muduo\build\ZERO_CHECK.vcxproj">
+      <Project>{B822DF87-6A36-37DD-964B-B0C3184521AE}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\muduo\net\protorpc\muduo_protorpc.vcxproj">
+      <Project>{5120F6CD-8A84-3AFE-AD48-46FED2F47D93}</Project>
+      <Name>muduo_protorpc</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\protobuf\rpcbalancer\protobuf_rpc_balancer.vcxproj">
+      <Project>{CFD11532-D7E8-3DF6-BE56-C689C661F360}</Project>
+      <Name>protobuf_rpc_balancer</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\protobuf\rpcbalancer\protobuf_rpc_balancer_raw.vcxproj">
+      <Project>{0B3374FA-2C2E-3ABE-8DE2-B7CDF25EE339}</Project>
+      <Name>protobuf_rpc_balancer_raw</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\protobuf\rpcbench\protobuf_rpc_echo_client.vcxproj">
+      <Project>{809CBD2D-5330-3974-BB13-13DA37FBA6CB}</Project>
+      <Name>protobuf_rpc_echo_client</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\protobuf\rpcbench\protobuf_rpc_echo_server.vcxproj">
+      <Project>{4B72F581-C374-32CB-91C8-4E9376FA3A5B}</Project>
+      <Name>protobuf_rpc_echo_server</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\protobuf\resolver\protobuf_rpc_resolver_client.vcxproj">
+      <Project>{03D8F1AD-31AE-3604-B8A4-C63C5A909157}</Project>
+      <Name>protobuf_rpc_resolver_client</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\protobuf\resolver\protobuf_rpc_resolver_server.vcxproj">
+      <Project>{9DE026B1-F903-3E75-A6BB-332442C1230F}</Project>
+      <Name>protobuf_rpc_resolver_server</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\protobuf\rpc\protobuf_rpc_sudoku_client.vcxproj">
+      <Project>{1E2D512D-605F-3125-B379-3D3E9BEE5E8F}</Project>
+      <Name>protobuf_rpc_sudoku_client</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\muduo\muduo\build\examples\protobuf\rpc\protobuf_rpc_sudoku_server.vcxproj">
+      <Project>{C942C24F-102D-332E-935E-8A7A2D6B447F}</Project>
+      <Name>protobuf_rpc_sudoku_server</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

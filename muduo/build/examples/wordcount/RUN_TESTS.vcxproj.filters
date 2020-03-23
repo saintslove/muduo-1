@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\muduo\muduo\build\CMakeFiles\284b297f66d90f0dfde48337d4995e43\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F0C8E354-7B60-349B-A405-CD13769369F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

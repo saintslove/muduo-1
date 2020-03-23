@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\muduo\muduo\examples\protobuf\rpc\CMakeLists.txt" />
+    <CustomBuild Include="F:\muduo\muduo\build\CMakeFiles\68d2dff08f3227ebcfa3328cd618881d\protobuf_rpc_all.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\muduo\muduo\build\examples\protobuf\rpc\CMakeFiles\protobuf_rpc_all" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F0C8E354-7B60-349B-A405-CD13769369F4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

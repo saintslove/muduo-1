@@ -1,0 +1,2 @@
+D:\PROGRA~2\MinGw\bin\ar.exe qc ..\..\lib\libmuduo_curl.a  CMakeFiles/muduo_curl.dir/Curl.cc.obj
+D:\PROGRA~2\MinGw\bin\ranlib.exe ..\..\lib\libmuduo_curl.a

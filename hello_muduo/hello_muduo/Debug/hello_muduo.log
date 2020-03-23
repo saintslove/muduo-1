@@ -1,0 +1,4 @@
+﻿  VisualGDB: Sending 1 updated source file to build machine...
+  VisualGDB: Run "make CONFIG=Debug" in directory "/opt/qiwang30/muduo/hello_muduo" on root@172.22.124.114:24 (SSH)
+  g++ -std=c++11 -ggdb -ffunction-sections -O0  -I./include -DDEBUG=1  -c hello_muduo.cpp -o Debug/hello_muduo.o -MD -MF Debug/hello_muduo.dep
+  g++ -o Debug/hello_muduo -Wl,-gc-sections   -L./lib/boost -L./lib/muduo -Wl,--start-group Debug/hello_muduo.o -lmuduo_base -lmuduo_net  -Wl,--rpath='$ORIGIN'   -Wl,--end-group

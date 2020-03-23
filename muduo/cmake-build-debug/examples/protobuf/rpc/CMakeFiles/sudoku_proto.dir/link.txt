@@ -1,0 +1,2 @@
+D:\PROGRA~2\MinGw\bin\ar.exe qc ..\..\..\lib\libsudoku_proto.a  CMakeFiles/sudoku_proto.dir/sudoku.pb.cc.obj
+D:\PROGRA~2\MinGw\bin\ranlib.exe ..\..\..\lib\libsudoku_proto.a

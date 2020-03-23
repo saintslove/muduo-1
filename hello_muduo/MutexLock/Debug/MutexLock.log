@@ -1,0 +1,15 @@
+﻿  VisualGDB: No file changes detected. If you believe it's a mistake, please clean the project and build it again.
+  VisualGDB: Run "make CONFIG=Debug" in directory "/opt/qiwang30/muduo/MutexLock" on root@172.22.124.114:24 (SSH)
+  g++ -std=c++11 -ggdb -ffunction-sections -O0   -DDEBUG=1  -c MutexLock.cpp -o Debug/MutexLock.o -MD -MF Debug/MutexLock.dep
+  MutexLock.cpp: In member function ‘void MutexLock::lock()’:
+F:\muduo\hello_muduo\MutexLock\MutexLock.cpp(24,18): error : ‘getpid’ was not declared in this scope
+     hold_ = getpid();
+                    ^
+  make: *** [Debug/MutexLock.o] Error 1
+  -------------------------------------------------------------
+  Command exited with code 2
+  Executable: make
+  Arguments: CONFIG=Debug
+  Directory: /opt/qiwang30/muduo/MutexLock
+VisualGDB : error : Command-line action failed
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3073: 命令“"D:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /build "F:\muduo\hello_muduo\MutexLock\MutexLock.vcxproj" "/solution:F:\muduo\hello_muduo\hello_muduo.sln" "/config:Debug" "/platform:Win32"”已退出，代码为 1。

@@ -1,0 +1,2 @@
+D:\PROGRA~2\MinGw\bin\ar.exe qc ..\..\..\lib\libmuduo_protobuf_codec.a  CMakeFiles/muduo_protobuf_codec.dir/ProtobufCodecLite.cc.obj
+D:\PROGRA~2\MinGw\bin\ranlib.exe ..\..\..\lib\libmuduo_protobuf_codec.a

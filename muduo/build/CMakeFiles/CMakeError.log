@@ -1,0 +1,42 @@
+Determining if the function accept4 exists failed with the following output:
+Change Dir: F:/muduo/muduo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_39ddf.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2020/2/8 13:47:58。
+节点 1 上的项目“F:\muduo\muduo\build\CMakeFiles\CMakeTmp\cmTC_39ddf.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_39ddf.dir\Debug\”。
+  正在创建目录“F:\muduo\muduo\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_39ddf.dir\Debug\cmTC_39ddf.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_39ddf.dir\Debug\cmTC_39ddf.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\vs2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=accept4 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39ddf.dir\Debug\\" /Fd"cmTC_39ddf.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=accept4 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39ddf.dir\Debug\\" /Fd"cmTC_39ddf.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  D:\vs2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"F:\muduo\muduo\build\CMakeFiles\CMakeTmp\Debug\cmTC_39ddf.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/muduo/muduo/build/CMakeFiles/CMakeTmp/Debug/cmTC_39ddf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/muduo/muduo/build/CMakeFiles/CMakeTmp/Debug/cmTC_39ddf.lib" /MACHINE:X64  /machine:x64 cmTC_39ddf.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 accept4，该符号在函数 main 中被引用 [F:\muduo\muduo\build\CMakeFiles\CMakeTmp\cmTC_39ddf.vcxproj]
+F:\muduo\muduo\build\CMakeFiles\CMakeTmp\Debug\cmTC_39ddf.exe : fatal error LNK1120: 1 个无法解析的外部命令 [F:\muduo\muduo\build\CMakeFiles\CMakeTmp\cmTC_39ddf.vcxproj]
+已完成生成项目“F:\muduo\muduo\build\CMakeFiles\CMakeTmp\cmTC_39ddf.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“F:\muduo\muduo\build\CMakeFiles\CMakeTmp\cmTC_39ddf.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 accept4，该符号在函数 main 中被引用 [F:\muduo\muduo\build\CMakeFiles\CMakeTmp\cmTC_39ddf.vcxproj]
+  F:\muduo\muduo\build\CMakeFiles\CMakeTmp\Debug\cmTC_39ddf.exe : fatal error LNK1120: 1 个无法解析的外部命令 [F:\muduo\muduo\build\CMakeFiles\CMakeTmp\cmTC_39ddf.vcxproj]
+
+    0 个警告
+    2 个错误
+
+已用时间 00:00:00.65
+
+

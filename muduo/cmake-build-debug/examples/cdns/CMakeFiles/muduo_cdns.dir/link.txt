@@ -1,0 +1,2 @@
+D:\PROGRA~2\MinGw\bin\ar.exe qc ..\..\lib\libmuduo_cdns.a  CMakeFiles/muduo_cdns.dir/Resolver.cc.obj
+D:\PROGRA~2\MinGw\bin\ranlib.exe ..\..\lib\libmuduo_cdns.a

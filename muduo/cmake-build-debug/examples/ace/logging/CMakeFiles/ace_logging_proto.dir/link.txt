@@ -1,0 +1,2 @@
+D:\PROGRA~2\MinGw\bin\ar.exe qc ..\..\..\lib\libace_logging_proto.a  CMakeFiles/ace_logging_proto.dir/logrecord.pb.cc.obj
+D:\PROGRA~2\MinGw\bin\ranlib.exe ..\..\..\lib\libace_logging_proto.a
