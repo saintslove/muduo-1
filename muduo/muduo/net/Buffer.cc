@@ -22,6 +22,12 @@ const char Buffer::kCRLF[] = "\r\n";
 const size_t Buffer::kCheapPrepend;
 const size_t Buffer::kInitialSize;
 
+
+/************************************************************************/
+/* 采用【LT模式】										
+/* 采用边沿触发，在处理【handleRead】至少调用两次【readv】，比【LT模式】多一次系统调用
+/* 原因：由于【ET模式】，只会产生一次读事件，为读取全部数据，至少需两次【readv】以确定数据已经全部读取完毕
+/************************************************************************/
 ssize_t Buffer::readFd(int fd, int* savedErrno)
 {
   // saved an ioctl()/FIONREAD call to tell how much to read
@@ -38,14 +44,17 @@ ssize_t Buffer::readFd(int fd, int* savedErrno)
   const ssize_t n = sockets::readv(fd, vec, iovcnt);
   if (n < 0)
   {
+	// 读事件错误
     *savedErrno = errno;
   }
   else if (implicit_cast<size_t>(n) <= writable)
   {
+	// 读缓存可容纳读取数据
     writerIndex_ += n;
   }
   else
   {
+	// 读缓存不够容纳所有数据，将剩余数据追加到【extrabuf】缓存
     writerIndex_ = buffer_.size();
     append(extrabuf, n - writable);
   }
